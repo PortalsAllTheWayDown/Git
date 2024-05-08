@@ -1,0 +1,4 @@
+git config --global credential.helper wincred
+git config --global credential.useHttpPath true
+
+With git config useHttpPath this will enable you to use multiple different login for different http paths.
